@@ -9,16 +9,15 @@ ATENÇÃO
 
 requisitos:
 
-python 3 instalado
-biblioteca paramiko instalada
+python 3 instalado,
+biblioteca paramiko instalada,
 biblioteca colorama instalada
 
 modo de usar:
-SSH Bruteforce Python script
--host - Hostname ou Endereço IP do Servidor SSH para o bruteforce
--P - Arquivo que contem uma lista de senhas em cada linha
--U - Arquivo que contem uma lista de usuários em cada linha
--u - Nome de usuário caso quera inserir somente um username
+-host : Hostname ou Endereço IP do Servidor SSH para o bruteforce
+-P : Arquivo que contem uma lista de senhas em cada linha
+-U : Arquivo que contem uma lista de usuários em cada linha
+-u : Nome de usuário caso quera inserir somente um username
 
 exemplo de uso:
 Ir na pasta do programa pelo terminal e executar o comando conforme os exemplos:
