@@ -9,18 +9,26 @@ ATENÇÃO
 
 requisitos:
 
-python 3 instalado,
-biblioteca paramiko instalada,
+python 3 instalado
+
+biblioteca paramiko instalada
+
 biblioteca colorama instalada
 
 modo de usar:
--host : Hostname ou Endereço IP do Servidor SSH para o bruteforce,
--P : Arquivo que contem uma lista de senhas em cada linha,
--U : Arquivo que contem uma lista de usuários em cada linha,
--u : Nome de usuário caso quera inserir somente um username.
+
+-host : Hostname ou Endereço IP do Servidor SSH para o bruteforce
+
+-P : Arquivo que contem uma lista de senhas em cada linha
+
+-U : Arquivo que contem uma lista de usuários em cada linha
+
+-u : Nome de usuário caso quera inserir somente um username
 
 exemplo de uso:
+
 Ir na pasta do programa pelo terminal e executar o comando conforme os exemplos:
 
-   exemplo 1: python sshbf.py -host 192.168.0.1 -u admin -P pass.txt .
-   exemplo 2: python sshbf.py -host 192.168.0.1 -U users.txt -P pass.txt .
+exemplo 1: python sshbf.py -host 192.168.0.1 -u admin -P pass.txt 
+
+exemplo 2: python sshbf.py -host 192.168.0.1 -U users.txt -P pass.txt 
