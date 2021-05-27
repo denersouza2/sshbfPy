@@ -1,7 +1,5 @@
 # sshbfPy
 Brute force SSH script in python
-#############sshbf#############
-############by=DKZ#############
 
 O programa ira testar todas as senhas possiveis e caso encontre alguma senha compativel ira mostrar e gerar um arquivo (credentials.txt) contendo todas as senhas que foram compativeis
 
